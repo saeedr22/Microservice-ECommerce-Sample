@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "4AFyzQs/i2w/5/aqH9gwEJEnRNwogkT/L7cbNdA4W6cXpfMj8wrf8E6vOuc3tVNtT2Fy+9v6p+HR5MlQBqq+8g==",
+  "success": true,
+  "projectFilePath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saeed\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.5\\microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.5\\microsoft.entityframeworkcore.inmemory.6.0.5.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

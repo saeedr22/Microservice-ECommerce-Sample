@@ -1,0 +1,1 @@
+dotnet run --project .\ECommerce.Api.Search\ECommerce.Api.Search.csproj
