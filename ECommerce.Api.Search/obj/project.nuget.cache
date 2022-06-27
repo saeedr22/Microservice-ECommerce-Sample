@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FdXm+MCvxpUEvfqP3gA2iLKRd7plMfN+I8EbJkfUzEF+u4SaHKDnWA4+Rykz2gTlK428klqDTQkTqcupdpZnCA==",
+  "dgSpecHash": "Z4EeBUmxn414H6sETYYpt+2MMU6MhA6XYXitGg0zPPMO1r7gLzX2WM1u3C0Vpv9cY10+SNSPWKJNEPfByiAqfA==",
   "success": true,
-  "projectFilePath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
+  "projectFilePath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

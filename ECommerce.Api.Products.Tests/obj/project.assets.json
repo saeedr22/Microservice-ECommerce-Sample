@@ -6555,11 +6555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
+      "projectUniqueName": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
       "projectName": "ECommerce.Api.Products.Tests",
-      "projectPath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
+      "projectPath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
       "packagesPath": "C:\\Users\\saeed\\.nuget\\packages\\",
-      "outputPath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Products.Tests\\obj\\",
+      "outputPath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Products.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6579,8 +6579,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {
-              "projectPath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj"
+            "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {
+              "projectPath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj"
             }
           }
         }

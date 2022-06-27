@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2YsmzdPLkXtWoz8xbXpRAYr+0NISt5nKXwBW006wzIVVNRJ9cNOjxJ5jOoR4hJbk3/ONk6AbRUjsVFBr/Up09g==",
+  "dgSpecHash": "eK/b0eglulN0X3FY0cEEGEyJEP7LeeAYOrBYc06m6suR8rhTm1R8n5NkmLigkxmfGXOn5p/ku+6qbAlEmokOUA==",
   "success": true,
-  "projectFilePath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
+  "projectFilePath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saeed\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\saeed\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -690,11 +690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
+      "projectUniqueName": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
       "projectName": "ECommerce.Api.Products",
-      "projectPath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
+      "projectPath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
       "packagesPath": "C:\\Users\\saeed\\.nuget\\packages\\",
-      "outputPath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Products\\obj\\",
+      "outputPath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Products\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
