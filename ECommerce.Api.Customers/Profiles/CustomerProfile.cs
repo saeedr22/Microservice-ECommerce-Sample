@@ -4,7 +4,7 @@
     {
         public CustomerProfile()
         {
-            CreateMap<Data.Customer, Models.Customer>();
+            CreateMap<Db.Customer, Models.Customer>();
         }
     }
 }

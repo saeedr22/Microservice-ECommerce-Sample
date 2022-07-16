@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using ECommerce.Api.Orders.Data;
+using ECommerce.Api.Orders.Db;
 using ECommerce.Api.Orders.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -85,7 +85,7 @@ namespace ECommerce.Api.Orders.Providers
                     .ToListAsync();
                 if (orders != null && orders.Any())
                 {
-                    var result = mapper.Map<IEnumerable<Data.Order>, 
+                    var result = mapper.Map<IEnumerable<Db.Order>, 
                         IEnumerable<Models.Order>>(orders);
                     return (true, result, null);
                 }

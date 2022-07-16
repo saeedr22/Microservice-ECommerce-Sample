@@ -9,8 +9,9 @@
       "ECommerce.Api.Orders/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.5",
-          "Microsoft.EntityFrameworkCore.InMemory": "6.0.5"
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "Microsoft.EntityFrameworkCore.InMemory": "6.0.7",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.16.1"
         },
         "runtime": {
           "ECommerce.Api.Orders.dll": {}
@@ -40,10 +41,10 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
-      "Microsoft.EntityFrameworkCore/6.0.5": {
+      "Microsoft.EntityFrameworkCore/6.0.7": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.5",
-          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.5",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.7",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.7",
           "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
@@ -52,28 +53,28 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "6.0.5.0",
-            "fileVersion": "6.0.522.21804"
+            "assemblyVersion": "6.0.7.0",
+            "fileVersion": "6.0.722.31501"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/6.0.5": {
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.7": {
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "6.0.5.0",
-            "fileVersion": "6.0.522.21804"
+            "assemblyVersion": "6.0.7.0",
+            "fileVersion": "6.0.722.31501"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/6.0.5": {},
-      "Microsoft.EntityFrameworkCore.InMemory/6.0.5": {
+      "Microsoft.EntityFrameworkCore.Analyzers/6.0.7": {},
+      "Microsoft.EntityFrameworkCore.InMemory/6.0.7": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.5"
+          "Microsoft.EntityFrameworkCore": "6.0.7"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
-            "assemblyVersion": "6.0.5.0",
-            "fileVersion": "6.0.522.21804"
+            "assemblyVersion": "6.0.7.0",
+            "fileVersion": "6.0.722.31501"
           }
         }
       },
@@ -125,6 +126,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.16.1": {},
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -165,33 +167,33 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore/6.0.5": {
+    "Microsoft.EntityFrameworkCore/6.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hP5J3EvpVdZmCn1D3ovedphvZrIn3OXZaBZfEnCkSCqqbqAu6xzwbNqwRkik0y4R6zOOf4eLh1riwjy4eAUlZA==",
-      "path": "microsoft.entityframeworkcore/6.0.5",
-      "hashPath": "microsoft.entityframeworkcore.6.0.5.nupkg.sha512"
+      "sha512": "sha512-9BsvGSpTzxvqnxH19wLBFivK5TzWmsHZQc/1cQ4b2e+k85aIG9R4FYewQLHZdPrAxNQImXjTyW5nRI3s1rpt6A==",
+      "path": "microsoft.entityframeworkcore/6.0.7",
+      "hashPath": "microsoft.entityframeworkcore.6.0.7.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/6.0.5": {
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Q3/fKW6XCTfnDk4fYP2BJZi84cD2SuCPkP3A3QqxvCQcXbX90bfSLzVIsoMXzigHGJgZUJ+Un7QodT5Nvk0+Eg==",
-      "path": "microsoft.entityframeworkcore.abstractions/6.0.5",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512"
+      "sha512": "sha512-bjU0CkTqldgpVPTSj9M+R/3EaTz+u0jMeQMIC91YdGYDbpX/tAN5UYx+Ihzk4AtP8gmhburQUgMTdnmCE9c5sA==",
+      "path": "microsoft.entityframeworkcore.abstractions/6.0.7",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/6.0.5": {
+    "Microsoft.EntityFrameworkCore.Analyzers/6.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QUeDIhs+O+MoDEc3k60mNyVDbwyDURCqZQlZoKShuZUcSfXSrDMbHKuFSxBIDNQBt092qSjfnwf7w0Ua/IB3Zw==",
-      "path": "microsoft.entityframeworkcore.analyzers/6.0.5",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512"
+      "sha512": "sha512-VAOrGma8mRspUb/9quwIr21UZVqfWOcRQqhcYNkHBUD7woenwFTBvntiC9h2Ebtvj/BrRfezqjaHpWVvPSg4dw==",
+      "path": "microsoft.entityframeworkcore.analyzers/6.0.7",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.InMemory/6.0.5": {
+    "Microsoft.EntityFrameworkCore.InMemory/6.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EkN5W28f18acApSn7uxglOXI6h98s7ahlh0T4+0TJ+dahO1dqhO1VwNXcjkfwxq1Oz1FZdR9HD0fAWTQjWU1Kw==",
-      "path": "microsoft.entityframeworkcore.inmemory/6.0.5",
-      "hashPath": "microsoft.entityframeworkcore.inmemory.6.0.5.nupkg.sha512"
+      "sha512": "sha512-n0hvDcK/tyrNMAFH0hmT0RRiK2ob8t+AwRbwn8uzQ47lvpfjvMRm8Mc113hb+zYsEBYdztthy69byTXNmjAsLw==",
+      "path": "microsoft.entityframeworkcore.inmemory/6.0.7",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.6.0.7.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
       "type": "package",
@@ -248,6 +250,13 @@
       "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
       "path": "microsoft.extensions.primitives/6.0.0",
       "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.16.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbhMLd8inAwC5UvmzCfgT869zCmuXNNF1ICaBPROtB5TfGoMEpk9zEiTfa/e3PKOla/uz42WujhspNrv7d35AQ==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.16.1",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.16.1.nupkg.sha512"
     },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",

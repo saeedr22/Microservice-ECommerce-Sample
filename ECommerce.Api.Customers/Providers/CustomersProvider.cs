@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using ECommerce.Api.Customers.Data;
+using ECommerce.Api.Customers.Db;
 using ECommerce.Api.Customers.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -28,9 +28,9 @@ namespace ECommerce.Api.Customers.Providers
         {
             if (!dbContext.Customers.Any())
             {
-                dbContext.Customers.Add(new Data.Customer() { Id = 1, Name = "Jessica Smith", Address = "20 Elm St." });
-                dbContext.Customers.Add(new Data.Customer() { Id = 2, Name = "John Smith", Address = "30 Main St." });
-                dbContext.Customers.Add(new Data.Customer() { Id = 3, Name = "William Johnson", Address = "100 10th St." });
+                dbContext.Customers.Add(new Db.Customer() { Id = 1, Name = "Jessica Smith", Address = "20 Elm St." });
+                dbContext.Customers.Add(new Db.Customer() { Id = 2, Name = "John Smith", Address = "30 Main St." });
+                dbContext.Customers.Add(new Db.Customer() { Id = 3, Name = "William Johnson", Address = "100 10th St." });
                 dbContext.SaveChanges();
             }
         }
@@ -44,7 +44,7 @@ namespace ECommerce.Api.Customers.Providers
                 if (customers != null && customers.Any())
                 {
                     logger?.LogInformation($"{customers.Count} customer(s) found");
-                    var result = mapper.Map<IEnumerable<Data.Customer>, IEnumerable<Models.Customer>>(customers);
+                    var result = mapper.Map<IEnumerable<Db.Customer>, IEnumerable<Models.Customer>>(customers);
                     return (true, result, null);
                 }
                 return (false, null, "Not found");
@@ -65,7 +65,7 @@ namespace ECommerce.Api.Customers.Providers
                 if (customer != null)
                 {
                     logger?.LogInformation("Customer found");
-                    var result = mapper.Map<Data.Customer, Models.Customer>(customer);
+                    var result = mapper.Map<Db.Customer, Models.Customer>(customer);
                     return (true, result, null);
                 }
                 return (false, null, "Not found");

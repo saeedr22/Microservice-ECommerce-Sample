@@ -4,8 +4,8 @@
     {
         public OrderProfile()
         {
-            CreateMap<Data.Order, Models.Order>();
-            CreateMap<Data.OrderItem, Models.OrderItem>();
+            CreateMap<Db.Order, Models.Order>();
+            CreateMap<Db.OrderItem, Models.OrderItem>();
         }
     }
 }

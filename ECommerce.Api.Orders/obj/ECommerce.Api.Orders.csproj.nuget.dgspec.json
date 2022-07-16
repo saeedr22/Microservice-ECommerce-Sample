@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj": {}
+    "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj": {}
   },
   "projects": {
-    "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj": {
+    "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj",
+        "projectUniqueName": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj",
         "projectName": "ECommerce.Api.Orders",
-        "projectPath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj",
+        "projectPath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj",
         "packagesPath": "C:\\Users\\saeed\\.nuget\\packages\\",
-        "outputPath": "E:\\sarez\\Microservice\\ECommerce\\ECommerce.Api.Orders\\obj\\",
+        "outputPath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Orders\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\saeed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,11 +51,15 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.16.1, )"
             }
           },
           "imports": [
@@ -74,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

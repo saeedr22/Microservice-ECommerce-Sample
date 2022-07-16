@@ -1,6 +1,4 @@
-using System;
-
-namespace ECommerce.Api.Search.Models
+﻿namespace ECommerce.Api.Search.Models
 {
     public class SearchTerm
     {

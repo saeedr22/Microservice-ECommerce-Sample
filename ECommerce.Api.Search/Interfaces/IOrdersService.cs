@@ -1,5 +1,6 @@
-using System;
-using ECommerce.Api.Search.Models;
+﻿using ECommerce.Api.Search.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ECommerce.Api.Search.Interfaces
 {

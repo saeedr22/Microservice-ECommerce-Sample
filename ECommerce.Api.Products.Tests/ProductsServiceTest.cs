@@ -1,47 +1,94 @@
-using Xunit;
-using ECommerce.Api.Products.Data;
-using Microsoft.EntityFrameworkCore;
-using ECommerce.Api.Products.Profiles;
 using AutoMapper;
+using ECommerce.Api.Products.Db;
+using ECommerce.Api.Products.Profiles;
 using ECommerce.Api.Products.Providers;
-using System.Linq;
+using Microsoft.EntityFrameworkCore;
 using System;
+using System.Linq;
+using System.Threading.Tasks;
+using Xunit;
 
-namespace ECommerce.Api.Products.Tests;
-
-public class ProductsServiceTest
+namespace ECommerce.Api.Products.Tests
 {
-    [Fact]
-    public async void GetProducts_ReturnsAllProducts()
+    public class ProductsServiceTest
     {
-        var options = new DbContextOptionsBuilder<ProductDbContext>()
-                       .UseInMemoryDatabase(nameof(GetProducts_ReturnsAllProducts))
-                       .Options;
-        var context = new ProductDbContext(options);
-        var productProfile = new ProductProfile();
-        var configuration = new MapperConfiguration(cfg => cfg.AddProfile(productProfile));
-        var mapper = new Mapper(configuration);
-        CreateProducts(context);
-        var productsProvider = new ProductsProvider(context, null, mapper);     
-        var product = await productsProvider.GetProductsAsync();
-        
-        Assert.True(product.IsSuccess);
-        Assert.True(product.products.Any());
-        Assert.Null(product.ErrorMessage);
-    }
-
-    void CreateProducts(ProductDbContext dbContext)
-    {
-        for (int i = 1; i <= 10; i++)
+        [Fact]
+        public async Task GetProductsReturnsAllProducts()
         {
-            dbContext.Products.Add(new Product
-            {
-                Id = i,
-                Inventory = 100,
-                Price = 200,
-                Name = Guid.NewGuid().ToString()
-            });
+            var options = new DbContextOptionsBuilder<ProductsDbContext>()
+                .UseInMemoryDatabase(nameof(GetProductsReturnsAllProducts))
+                .Options;
+            var dbContext = new ProductsDbContext(options);
+            CreateProducts(dbContext);
+
+            var productProfile = new ProductProfile();
+            var configuration = new MapperConfiguration(cfg => cfg.AddProfile(productProfile));
+            var mapper = new Mapper(configuration);
+
+            var productsProvider = new ProductsProvider(dbContext, null, mapper);
+
+            var product = await productsProvider.GetProductsAsync();
+            Assert.True(product.IsSuccess);
+            Assert.True(product.Products.Any());
+            Assert.Null(product.ErrorMessage);
         }
-        dbContext.SaveChanges();
+
+        [Fact]
+        public async Task GetProductReturnsProductUsingValidId()
+        {
+            var options = new DbContextOptionsBuilder<ProductsDbContext>()
+                .UseInMemoryDatabase(nameof(GetProductReturnsProductUsingValidId))
+                .Options;
+            var dbContext = new ProductsDbContext(options);
+            CreateProducts(dbContext);
+
+            var productProfile = new ProductProfile();
+            var configuration = new MapperConfiguration(cfg => cfg.AddProfile(productProfile));
+            var mapper = new Mapper(configuration);
+
+            var productsProvider = new ProductsProvider(dbContext, null, mapper);
+
+            var product = await productsProvider.GetProductAsync(1);
+            Assert.True(product.IsSuccess);
+            Assert.NotNull(product.Product);
+            Assert.True(product.Product.Id == 1);
+            Assert.Null(product.ErrorMessage);
+        }
+
+        [Fact]
+        public async Task GetProductReturnsProductUsingInvalidId()
+        {
+            var options = new DbContextOptionsBuilder<ProductsDbContext>()
+                .UseInMemoryDatabase(nameof(GetProductReturnsProductUsingInvalidId))
+                .Options;
+            var dbContext = new ProductsDbContext(options);
+            CreateProducts(dbContext);
+
+            var productProfile = new ProductProfile();
+            var configuration = new MapperConfiguration(cfg => cfg.AddProfile(productProfile));
+            var mapper = new Mapper(configuration);
+
+            var productsProvider = new ProductsProvider(dbContext, null, mapper);
+
+            var product = await productsProvider.GetProductAsync(-1);
+            Assert.False(product.IsSuccess);
+            Assert.Null(product.Product);
+            Assert.NotNull(product.ErrorMessage);
+        }
+
+        private void CreateProducts(ProductsDbContext dbContext)
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                dbContext.Products.Add(new Product()
+                {
+                    Id = i,
+                    Name = Guid.NewGuid().ToString(),
+                    Inventory = i + 10,
+                    Price = (decimal)(i * 3.14)
+                });
+            }
+            dbContext.SaveChanges();
+        }
     }
 }

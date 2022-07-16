@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "Z4EeBUmxn414H6sETYYpt+2MMU6MhA6XYXitGg0zPPMO1r7gLzX2WM1u3C0Vpv9cY10+SNSPWKJNEPfByiAqfA==",
+  "dgSpecHash": "w1EPXX2txVD7sU/3FmHAh6z96OWpTKyItSUCCUAh/IGxhkzkGWXtWboQRLL/QLG9zP8aGXzWYTMZAM6kW1w8YQ==",
   "success": true,
   "projectFilePath": "E:\\sarez\\Microservice\\Microservice-ECommerce-Sample\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.http.polly\\6.0.5\\microsoft.extensions.http.polly.6.0.5.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.16.1\\microsoft.visualstudio.azure.containers.tools.targets.1.16.1.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\polly\\7.2.2\\polly.7.2.2.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\saeed\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
